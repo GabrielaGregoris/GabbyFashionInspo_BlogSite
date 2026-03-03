@@ -1,6 +1,6 @@
 /* Global Styles */
 :root {
-    --primary-color: #333;
+    --primary-color: #2D324F;
     --secondary-color: #5d7c99;
     /* Muted blue from wireframe button */
     --accent-color: #f4f4f4;
@@ -120,7 +120,7 @@ header {
     display: flex;
     align-items: baseline;
     gap: 10px;
-    color: #333;
+    color: #2D324F;
 }
 
 .logo .script-font {
@@ -141,7 +141,7 @@ header {
     text-transform: uppercase;
     font-size: 0.8rem;
     font-weight: 700;
-    color: #333;
+    color: #2D324F;
 }
 
 .social-icons {
@@ -157,7 +157,7 @@ header {
     height: 30px;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 4px;
-    color: #333;
+    color: #2D324F;
 }
 
 .social-icons a:hover {
@@ -213,7 +213,7 @@ header {
 
 .section-title.script-font {
     font-size: 5rem;
-    color: #333;
+    color: #2D324F;
     margin-bottom: 30px;
     line-height: 1.2;
     transform: rotate(-5deg);
@@ -298,7 +298,7 @@ header {
 footer {
     background-color: #aebce6;
     padding: 60px 0 20px;
-    color: #333;
+    color: #2D324F;
 }
 
 .footer-container {
@@ -345,7 +345,7 @@ footer {
 .about-title {
     text-align: center;
     font-size: 5rem;
-    color: #2b3a4a;
+    color: #2D324F;
     margin-bottom: 60px;
     line-height: 1;
 }
@@ -361,7 +361,7 @@ footer {
 
 .about-image-wrapper {
     background-color: #eef1f6;
-    border: 2px solid #333;
+    border: 2px solid #2D324F;
     border-radius: 8px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     padding: 5px;
@@ -375,7 +375,7 @@ footer {
 
 .about-text h2 {
     font-size: 2rem;
-    color: #333;
+    color: #2D324F;
     margin-bottom: 20px;
     font-family: var(--font-heading);
     font-weight: 700;
@@ -392,7 +392,7 @@ footer {
     font-size: 1.4rem;
     margin-top: 30px;
     margin-bottom: 15px;
-    color: #333;
+    color: #2D324F;
 }
 
 .about-list {
@@ -443,7 +443,7 @@ footer {
 
 .blog-header-title h1 {
     font-size: 5rem;
-    color: #2b3a4a;
+    color: #2D324F;
     line-height: 1;
 }
 
@@ -535,7 +535,7 @@ footer {
 
 .post-header h1.post-title {
     font-size: 5rem;
-    color: #2b3a4a;
+    color: #2D324F;
     margin-bottom: 15px;
     line-height: 1.1;
 }
@@ -566,7 +566,7 @@ footer {
 
 .post-content h2 {
     font-size: 1.8rem;
-    color: #2b3a4a;
+    color: #2D324F;
     margin-top: 40px;
     margin-bottom: 20px;
 }
@@ -623,7 +623,7 @@ footer {
 
 .post-share h4 {
     font-size: 1rem;
-    color: #333;
+    color: #2D324F;
 }
 
 .post-share-icons {
@@ -644,7 +644,7 @@ footer {
 }
 
 .post-share-icons a:hover {
-    background-color: #2b3a4a;
+    background-color: #2D324F;
 }
 
 /* Contact Page */
@@ -678,7 +678,7 @@ footer {
 
 .contact-header h1 {
     font-size: 6rem;
-    color: #2b3a4a;
+    color: #2D324F;
     line-height: 1;
 }
 
@@ -704,7 +704,7 @@ footer {
     border-radius: 6px;
     font-family: var(--font-body);
     font-size: 1rem;
-    color: #333;
+    color: #2D324F;
     transition: border-color 0.3s ease;
 }
 
@@ -733,7 +733,7 @@ footer {
 }
 
 .btn-submit:hover {
-    background-color: #2b3a4a;
+    background-color: #2D324F;
 }
 
 /* Responsive */
