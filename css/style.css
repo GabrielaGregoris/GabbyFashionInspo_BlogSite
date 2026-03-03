@@ -132,6 +132,13 @@ header {
     font-size: 1.2rem;
 }
 
+.header-logo-img {
+    height: 60px;
+    /* Adjust size as needed */
+    width: auto;
+    object-fit: contain;
+}
+
 .nav-links {
     display: flex;
     gap: 30px;
