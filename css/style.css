@@ -104,8 +104,8 @@ h3 {
 
 /* Header */
 header {
-    background-color: #aebce6;
-    /* Light purple/blue from wireframe header bg */
+    background-color: #f1f1f1;
+    /* Updated background color */
     padding: 20px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
@@ -303,7 +303,7 @@ header {
 
 /* Footer */
 footer {
-    background-color: #aebce6;
+    background-color: #f1f1f1;
     padding: 60px 0 20px;
     color: #2D324F;
 }
