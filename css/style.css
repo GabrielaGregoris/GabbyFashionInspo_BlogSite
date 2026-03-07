@@ -123,6 +123,13 @@ header {
     color: #2D324F;
 }
 
+.logo a {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    color: #2D324F;
+}
+
 .logo .script-font {
     font-size: 3rem;
     line-height: 1;
@@ -554,7 +561,9 @@ footer {
 }
 
 .post-hero-image {
-    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
     border-radius: 8px;
     overflow: hidden;
 }
@@ -742,6 +751,67 @@ footer {
 .btn-submit:hover {
     background-color: #2D324F;
 }
+
+/* Privacy Policy Page */
+.privacy-page {
+    padding: 100px 0;
+    background-color: var(--light-bg, #fcfcfc);
+}
+
+.privacy-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.privacy-page h1 {
+    text-align: center;
+    color: var(--navy, #2D324F);
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+.privacy-page p.lead-small {
+    font-family: var(--body-font, 'Montserrat', sans-serif);
+    color: var(--text-color, #333333);
+    line-height: 1.8;
+}
+
+.privacy-page h3 {
+    color: var(--navy, #2D324F);
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.privacy-page ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.privacy-page a.contact-link {
+    color: var(--navy, #2D324F);
+    text-decoration: underline;
+}
+
+/* Instagram Embed */
+.instagram-media {
+    background: #FFF;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+    margin: 1px;
+    max-width: 540px;
+    min-width: 326px;
+    padding: 0;
+    width: 99.375%;
+    width: -webkit-calc(100% - 2px);
+    width: calc(100% - 2px);
+}
+
 
 /* Responsive */
 @media (max-width: 900px) {
