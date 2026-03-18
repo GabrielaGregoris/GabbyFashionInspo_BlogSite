@@ -643,11 +643,11 @@ footer {
 
 .outfit-heading {
     margin-top: 0;
-    font-size: 2rem;
-    letter-spacing: 4px;
-    font-style: italic;
-    font-family: 'Times New Roman', serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-family: var(--font-script);
     color: #000;
+    font-weight: 400;
 }
 
 .outfit-subtext {
