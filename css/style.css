@@ -604,11 +604,12 @@ footer {
     line-height: 1.7;
 }
 
-.post-inline-image {
+.post-inline-image, .category-image {
     border-radius: 8px;
-    margin-bottom: 20px;
-    max-width: 100%;
-    height: auto;
+    margin: 20px auto;
+    max-width: 400px;
+    width: 100%;
+    display: block;
 }
 
 .outfit-layout {
@@ -668,7 +669,19 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
-    margin-top: 30px;
+    margin: 30px auto;
+}
+
+.outfit-products-grid.grid-center {
+    justify-content: center;
+}
+
+.outfit-products-grid.grid-2-fixed {
+    grid-template-columns: repeat(2, 180px);
+}
+
+.outfit-products-grid.grid-3-fixed {
+    grid-template-columns: repeat(3, 180px);
 }
 
 .product-item {
@@ -677,9 +690,11 @@ footer {
 
 .product-item img {
     width: 100%;
+    max-width: 150px;
     aspect-ratio: 1/1;
     object-fit: cover;
-    margin-bottom: 10px;
+    margin: 0 auto 10px;
+    display: block;
     background-color: #f5f5f5;
 }
 
