@@ -564,6 +564,16 @@ footer {
     line-height: 1.1;
 }
 
+.post-header h1.post-title.title-spaced {
+    margin-bottom: 30px;
+}
+
+.post-subtitle {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
 .post-meta {
     font-size: 0.85rem;
     color: #888;
@@ -610,6 +620,11 @@ footer {
     max-width: 400px;
     width: 100%;
     display: block;
+}
+
+.category-image.small-category-image {
+    max-width: 40%;
+    margin: 0 auto 2rem auto;
 }
 
 .outfit-layout {
